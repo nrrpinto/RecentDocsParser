@@ -3,7 +3,9 @@
 DESCRIPTION
     
 It parses data from the registry on a live system to collect the track of the last used files and opened folders.
+
 Key: "HKEY_USERS\$SID\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs"
+
 HIVE: "NTUSER.DAT"
 
 
