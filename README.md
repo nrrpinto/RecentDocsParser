@@ -2,9 +2,10 @@
 
 DESCRIPTION
     
-It parses data from the registry key "HKEY_USERS\$SID\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs" on a live system to collect the track of the last used files and opened folders.
-This key belongs to HIVE: "NTUSER.DAT"
-This is a piece of code from a bigger project I am developing called Inquisitor, which is going to be a complete tool for digital forensics and incident response.
+It parses data from the registry on a live system to collect the track of the last used files and opened folders.
+Key: "HKEY_USERS\$SID\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs"
+HIVE: "NTUSER.DAT"
+
 
 To Activate the execution of Scripts, execute the following in powershell:
 	
